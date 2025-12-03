@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>AI German Poem Generator</title>
   </head>
@@ -12,7 +13,7 @@
     <h1>AI German poem Generator </h1>
     </header>
     <main>
-        <form>
+        <form id="poem-generator-foam">
             <input type="text"
              placeholder="Enter the topic of the German poem"
              autofocus
@@ -22,39 +23,7 @@
              />
             <input type="submit" class="submit-button" />
         </form>
-        <div class="poem">
-        <div>
-           De poeta
-ot muit dir'
-da geschihit di geburt. ez emdarf nimannen unmogelich dunkin hizu zu cumene. 
-waz schadit mir daz, wi swere ez ist, 
-sint he ez wirkit? alle sine gebot sint mir licht zu haldine. 
-he heize mich joch alliz daz he wolle, 
-des inachte ich nichtis nicht, daz ist mir alliz cleine, 
-ob he mir sine gnade da zu gibit. z sprechin etliche si inhaben is nicht, 
-so spreche ich: daz ist mir leit. e begeris du ez abir? 'nein'. 
-daz ist mir noch leidir. enmac man ez micht gehabin, 
-so habe man doch eine begerunge darzu. David sprichit: 
-'ich habe begerit einir begerunge zu dinir gerechtikeit.'
- daz wir Godis also begeren daz her in uns geborin werdin wolle, des helf uns etc.
-
-            <br/>
-            Augustinus sprichit waz da si fullide der zit.
-             “da numme zit inist, da ist fullide der zit'
-              dan ist der tac fol alse des tages numme in ist, 
-              daz ist ein notwarheit. alle zit muiz da abe sin 
-              da sich dise gebort hebit, wan nicht in ist daz dise 
-              geburt also sere hindere alse zit und creature. 
-              daz ist ein gewis warheit daz zit Got noch di sele fon 
-              nature nicht beruren inmac. mochte di sele fon zit herurt werdin, 
-              si inwere nicht sele, und mochte Got von zit berurt werdin,
-               he in were nicht Got. were abir daz di zit di sele beraren mochte,
-                so inmochte Got nummir in ir geborin werdin. 
-                da Got geboren sal werdin in der sele, 
-                da muiz alle zit abgewallin sin oder si muiz der zit intphallin 
-                sin mit willin oder mit begerunge.
-        </div>
-        </div>
+        <div class="poem" id="poem"></div>
     </main>
     <footer>
         This was coded by 
